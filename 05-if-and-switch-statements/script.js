@@ -1,7 +1,7 @@
 // 01) Spot the errors and fix them
 
 console.log("Task 1");
-const size = 10;
+const size = 25;
 let result;
 
 if (size > 20) {
