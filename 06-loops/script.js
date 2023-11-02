@@ -55,7 +55,7 @@ Implement a charCount function.
 function charCount(word, character) {
   let result = 0;
   if (character.length === 1) {
-    for (index = 0; index < word.length; index++) {
+    for (let index = 0; index < word.length; index++) {
       if (word[index] === character) {
         result++;
       }
