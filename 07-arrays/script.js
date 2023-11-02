@@ -44,11 +44,11 @@ Implement a sumOfCharacters function.
 // TODO: Implement the sumOfCharacters function
 console.log("Task 2");
 
-function sumOfCharacters(array) {
+function sumOfCharacters(entryArray) {
   let result = 0;
-  for (const iterator of array) {
-    if (typeof iterator === "string") {
-      result += iterator.length;
+  for (const entry of entryArray) {
+    if (typeof entry === "string") {
+      result += entry.length;
     }
   }
   return result;
